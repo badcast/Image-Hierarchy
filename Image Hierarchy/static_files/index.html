@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Image Hierarchy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/logged.css">
+
+    <script src="js/jquery-latest.js"></script>
+    <script src="js/code_api.js"></script>
+    <script src="js/before.js"></script>
+</head>
+
+<body>
+    <!-- CLIENT SIDE -->
+    <div id="signedForm" style="display:none;">
+        <div class="led_static">
+            <ul class="led_sides">
+                <li class="led_lfside">
+                    <div class="let_label_acc"><span id="dUserName"></span>
+                        <div style="left: 0; top:50px" class="led_hint_block">
+                            <input type="button" style="float: right" value="Изменить">
+                            <p>User ID: <span id="dUserID"></span></p>
+                            <p>Phone number: <span id="dUserPhoneNumber"></span></p>
+                            <p>Email: <span id="dUserEmail"></span></p>
+                            <p>Verify User: <span id="dUserVerifyStatus"></span></p>
+                        </div>
+                    </div>
+                </li>
+                <li class="led_topside">
+                    <p>IMAGE HIERARCHY</p>
+                </li>
+                <li class="led_rtside">
+                    <div class="led_but_logout" id="logOut">
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--FILE UPLOAD LAYER-->
+        <div>
+            <div class="fileUploadHere">
+                <input type="file">
+            </div>
+            <div id="dropZone">
+                <div id="message">
+                </div>
+            </div>
+            <p style="padding: 10px; margin: 0; background-color: black; text-align: center;" id="dImages"></p>
+        </div>
+
+        <!--New post's here-->
+        <div class="news-block">
+            <ul class="posts">
+                <li class="post">
+                    <span class="post-thumb" alt="Light Mister logo"></span>
+                    <a href="link.doo" class="post-link">sssss</a>
+                </li>
+            </ul>
+        </div>
+
+        <script src="js/download_bar.js"></script>
+    </div>
+
+    <!-- LOGIN AND REGISTER SIDE -->
+    <div id="signOutSignInPage" class="content">
+        <img style="display: none; margin-left: auto;margin-right: auto; " src="media/loading.gif" />
+        <div>
+            <h1>Image Hierarchy</h1>
+            <div id="loginForm">
+                <h3>Sign in</h3>
+                <label style="color:red" id="errorMessage"></label><br />
+                <label>Login or Email address</label><br />
+                <input type="email" id="emailLogin" /> <br /><br />
+                <label>Password</label><br />
+                <input type="password" id="passwordLogin" /> <button onclick="doc = document.getElementById('passwordLogin'); if(doc.type == 'password')doc.type='text'; else doc.type='password'">visible</button>
+                <br /><br />
+                <input type="submit" id="logIn" value="Login" />
+                <br />
+                <br />
+                <br />
+                <a style="display: flex; padding: 10px; background-color: cyan; text-decoration: underline; color: blue; cursor: pointer;" onclick="fetch_form(1);">
+                    Don't have account? Click to sign up
+                </a>
+            </div>
+
+            <div id="registerForm" style="display: none;">
+                <h3>Sign up</h3><br />
+                <label style="color:red" id="_sErrorMessage"></label><br />
+                <input type="text" placeholder="Display name*" /><br />
+                <input type="text" placeholder="Login*" /><br />
+                <input type="password" id="sTPassword" placeholder="Password*" /><button onclick="doc = document.getElementById('sTPassword'); if(doc.type == 'password')doc.type='text'; else doc.type='password'">visible</button>
+                <br />
+                <input type="password" id="sTCPassword" placeholder="Confirm password*" /><button onclick="doc = document.getElementById('sTCPassword'); if(doc.type == 'password')doc.type='text'; else doc.type='password'">visible</button>
+                <br />
+                <input type="email" placeholder="Email*" /><br />
+                <input type="tel" placeholder="Phone number*" /><br />
+                <br/>
+                <input type="submit" id="sSignUp" value=" Sign up " />
+                <label for="__slicense" style="float:right">I accept break license</label>
+                <input type="checkbox" id="__slicense" style="float:right" value="true">
+                <br />
+                <br />
+                <a style="text-align: center; display: flex; padding: 10px; background-color: cyan;; text-decoration: underline; color: blue; cursor: pointer; " onclick="fetch_form(0); ">Have
+            account? Click to sign in</a>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

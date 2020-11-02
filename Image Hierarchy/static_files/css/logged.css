@@ -1,0 +1,159 @@
+.led_static {
+    margin: 0;
+    height: 50px;
+    background: linear-gradient(#3d3d3d, #232323);
+    position: sticky;
+}
+
+.led_but_logout {
+    min-width: 50px;
+    height: 50px;
+    background: url('../media/exit.png');
+    background-size: contain;
+    border-color: rgb(192, 0, 0);
+    align-items: center;
+    cursor: pointer;
+}
+
+.let_label_acc {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1));
+    color: #4e4e4e;
+    margin: 0;
+    padding: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.let_label_acc:hover {
+    color: #8a8a8a;
+}
+
+
+/*Content offset sides*/
+
+.led_sides {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.led_lfside {
+    margin: 0;
+}
+
+.led_topside {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.led_hint_block {
+    display: none;
+    position: absolute;
+    background: black;
+    padding: 5px 20px;
+    left: inherit;
+}
+
+.let_label_acc:hover .led_hint_block {
+    display: block;
+}
+
+.let_label_acc:hover .let_label_acc {
+    background-color: black;
+}
+
+.led_rtside {}
+
+#dropZone,
+.fileUploadHere {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    width: 400px;
+    padding: 20px 0;
+    margin: 10px auto;
+    background: rgb(48, 48, 48);
+    border: 1px solid #555;
+    transition: linear 0.5s;
+}
+
+#dropZone.hover {
+    background: rgb(48, 48, 48);
+    border-color: #aaa;
+    border-width: 5px;
+    padding: 15px;
+}
+
+#dropZone.error {
+    background: #faa;
+    border-color: #f00;
+}
+
+#dropZone.drop {
+    background: #afa;
+    border-color: #0f0;
+}
+
+.picture_right {
+    padding: 5px;
+}
+
+.news-block {
+    width: 100%;
+    background: #232323;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+}
+
+.posts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: -ms-grid;
+}
+
+.post {
+    width: 232px;
+    height: 130px;
+    border-radius: 5px;
+    transition: linear .1s;
+    display: inline-block;
+}
+
+.post-thumb {
+    display: block;
+    background: url('../media/icons/LM-LOGO.png') no-repeat;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    width: 230px;
+    height: 128px;
+    transform: rotate(0deg);
+}
+
+.post:hover>.post-thumb {
+    cursor: pointer;
+    transition: linear .1s;
+}
+
+.post-link {
+    width: 230px;
+    position: absolute;
+    padding: 0;
+    display: none;
+    text-align: center;
+    margin-top: 0;
+    background-color: #3d3d3d00;
+}
+
+.post:hover>.post-link {
+    display: block;
+    padding: 5px;
+    margin-top: -28px;
+    transition: linear .1s;
+    background-color: #3d3d3d;
+}

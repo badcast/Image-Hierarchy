@@ -1,0 +1,41 @@
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Image Hierarchy.exe
+D:\Dev\WebDevelopment\Image Hierarchy\obj\Debug\netcoreapp3.1\Image Hierarchy.csprojAssemblyReference.cache
+D:\Dev\WebDevelopment\Image Hierarchy\obj\Debug\netcoreapp3.1\staticwebassets\Image Hierarchy.StaticWebAssets.Manifest.cache
+D:\Dev\WebDevelopment\Image Hierarchy\obj\Debug\netcoreapp3.1\staticwebassets\Image Hierarchy.StaticWebAssets.xml
+D:\Dev\WebDevelopment\Image Hierarchy\obj\Debug\netcoreapp3.1\Image Hierarchy.AssemblyInfoInputs.cache
+D:\Dev\WebDevelopment\Image Hierarchy\obj\Debug\netcoreapp3.1\Image Hierarchy.AssemblyInfo.cs
+D:\Dev\WebDevelopment\Image Hierarchy\obj\Debug\netcoreapp3.1\Image Hierarchy.RazorTargetAssemblyInfo.cache
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Dev\WebDevelopment\Image Hierarchy\obj\Debug\netcoreapp3.1\Image Hierarchy.csproj.CopyComplete
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\snappy32.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\snappy64.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\libzstd.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\SharpCompress.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\MongoDB.Driver.GridFS.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Image Hierarchy.deps.json
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Image Hierarchy.runtimeconfig.json
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Image Hierarchy.runtimeconfig.dev.json
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Image Hierarchy.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Image Hierarchy.pdb
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Dev\WebDevelopment\Image Hierarchy\obj\Debug\netcoreapp3.1\Image Hierarchy.dll
+D:\Dev\WebDevelopment\Image Hierarchy\obj\Debug\netcoreapp3.1\Image Hierarchy.pdb
+D:\Dev\WebDevelopment\Image Hierarchy\bin\Debug\netcoreapp3.1\TinyPNG.dll
+D:\Dev\WebDevelopment\Image Hierarchy\obj\Debug\netcoreapp3.1\Image Hierarchy.MvcApplicationPartsAssemblyInfo.cache
